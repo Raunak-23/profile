@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raunak Pal</title>
+  <link rel="stylesheet" href="style_updated.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Splide Carousel -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=dark_mode" />
+  <link rel="icon" type="image/x-icon" href="assets\profile.jpg">
+
+
+
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-text">Raunak</span>
+      </div>
+      <nav class="nav-menu" id="navMenu">
+        <ul>
+          <li class="nav-link"><a href="#home">Home</a></li>
+          <li class="nav-link"><a href="#about">About</a></li>
+          <li class="nav-link"><a href="#skills">Skills</a></li>
+          <li class="nav-link"><a href="#education">Education</a></li>
+          <li class="nav-link"><a href="#projects">Projects</a></li>
+          <li class="nav-link"><a href="#certificates">Certificates</a></li>
+        </ul>
+      </nav>
+      <button id="theme-toggle" aria-label="Toggle theme">
+  <img src="assets\moon.svg" class="theme-icon light-icon" alt="Moon Icon" style="color: black;">
+  <img src="assets\sun.svg" class="theme-icon dark-icon" alt="Sun Icon">
+</button>
+
+      <div class="hamburger" id="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-container">
+        <div class="hero-content">
+          <div>
+            <h1 class="hero-title">Hi, I'm <span class="gradient-text"> Raunak Pal</span></h1>
+            <p class="hero-subtitle">
+              <span id="dynamic-text"></span>
+              <span class="text-placeholder">A Tech Explorer</span>
+            </p>
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary">View My Work</a>
+              <a href="#about" class="btn btn-secondary">About Me</a>
+            </div>
+            <div class="social-links">
+              <a href="https://github.com/Raunak-23" class="social-link" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+
+              <a href="https://www.instagram.com/raunak_pal.3?igsh=eDJ4MHJwNGpxeDV1" class="social-link" target="_blank"
+                aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+
+              <a href="www.linkedin.com/in/raunak-p" class="social-link" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+
+              <a href="mailto:raunak.pal2023@vitstudent.ac.in" class="social-link" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+
+          </div>
+          <div class="hero-image">
+            <div class="image-container">
+              <img src="assets\pic.png" alt="Profile" class="profile-img" />
+              <div class="image-bg"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about" data-aos>
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>I'm <strong>Raunak Pal</strong>, an enthusiastic and curious mind currently pursuing my <strong>Integrated
+              M.Tech in Computer Science with a specialization in Data Science</strong> from <strong>VIT
+              Vellore</strong>. With over 6 years of hands-on coding experience starting from high school, I’ve grown
+            passionate about solving real-world problems through technology.</p>
+          <p> I enjoy crafting intuitive user experiences, digging deep into data to tell impactful stories, and
+            building scalable software systems that make life easier. Whether it’s building full-stack applications,
+            training intelligent models, or automating processes, I love turning ideas into reality.</p>
+        </div>
+      </div>
+    </section>
+    <section id="skills" data-aos>
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+
+        <div class="skill-category">
+          <h3>Development</h3>
+          <div class="skill-items">
+            <div class="skill-item">HTML5</div>
+            <div class="skill-item">CSS3</div>
+            <div class="skill-item">JavaScript</div>
+            <div class="skill-item">Java</div>
+            <div class="skill-item">JavaFX</div>
+            <div class="skill-item">C / C++</div>
+            <div class="skill-item">Python</div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>AI & Data</h3>
+          <div class="skill-items">
+            <div class="skill-item">Machine Learning</div>
+            <div class="skill-item">Data Analysis</div>
+            <div class="skill-item">Pandas</div>
+            <div class="skill-item">NumPy</div>
+            <div class="skill-item">Scikit-learn</div>
+            <div class="skill-item">TensorFlow</div>
+            <div class="skill-item">R</div>
+            <div class="skill-item">MATLAB (basic)</div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>Tools & Platforms</h3>
+          <div class="skill-items">
+            <div class="skill-item">Git & GitHub</div>
+            <div class="skill-item">Figma</div>
+            <div class="skill-item">Gradle</div>
+            <div class="skill-item">MySQL</div>
+            <div class="skill-item">VS Code</div>
+            <div class="skill-item">AWS (Basic)</div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>Core CS</h3>
+          <div class="skill-items">
+            <div class="skill-item">DSA</div>
+            <div class="skill-item">OOP</div>
+            <div class="skill-item">DBMS</div>
+            <div class="skill-item">Operating Systems</div>
+            <div class="skill-item">Computer Networks</div>
+            <div class="skill-item">Version Control</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="education" class="section" data-aos>
+      <h2 class="section-title">Education</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Integrated M.Tech in CSE (Data Science)</h3>
+            <span>2023 – 2028</span>
+            <p>Vellore Institute of Technology, Vellore<br>CGPA: 9.67</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Class 12 – CBSE</h3>
+            <span>2022</span>
+            <p>BNR Excellence Academy, Kharagpur<br>Percentage: 91.4%</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Class 10 – ICSE</h3>
+            <span>2020</span>
+            <p>St. Agnes School, Kharagpur<br>Percentage: 92.8%</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="projects" class="section dark" data-aos>
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+
+        <!-- Stock Market Prediction Web App -->
+        <article class="project-card">
+          <img src="assets\projects\stock.png" alt="Stock Prediction App">
+          <div class="project-info">
+            <h3>Stock Market Prediction App</h3>
+            <p>AI-powered app to forecast short-term stock trends with future sentiment integration.</p>
+            <div class="tech">
+              <span>React+Vite</span>
+              <span>Node</span>
+              <span>Python</span>
+              <span>Sqlite3</span>
+            </div>
+            <div class="project-buttons">
+              <a href="https://github.com/Raunak-23/stock_prediction" class="btn">Code</a>
+              <a href="https://demo-link.com" class="btn btn-secondary">Demo</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Modern File Explorer System -->
+        <article class="project-card">
+          <img src="assets\projects\file.jpg" alt="File Explorer">
+          <div class="project-info">
+            <h3>Modern File Explorer</h3>
+            <p>Context-aware file management app with system-level features.</p>
+            <div class="tech">
+              <span>JavaFX</span>
+              <span>Java</span>
+              <span>C++</span>
+              <span>Gradle</span>
+              <span>JNI</span>
+            </div>
+            <div class="project-buttons">
+              <a href="https://github.com/your-repo" class="btn">Code</a>
+              <a href="https://demo-link.com" class="btn btn-secondary">Demo</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Medicine Reminder & Dispenser -->
+        <article class="project-card">
+          <img src="assets\projects\medicine.jpg" alt="Medicine Reminder">
+          <div class="project-info">
+            <h3>Medicine Reminder & Dispenser</h3>
+            <p>Hardware project using Arduino & NodeMCU for timed medicine dispensing and reminders.</p>
+            <div class="tech">
+              <span>Arduino</span>
+              <span>NodeMCU</span>
+              <span>Servo</span>
+              <span>I2C</span>
+            </div>
+            <div class="project-buttons">
+              <a href="https://github.com/your-repo" class="btn">Code</a>
+              <a href="https://demo-link.com" class="btn btn-secondary">Demo</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Netflix Clone -->
+        <article class="project-card">
+          <img src="assets\projects\netflix.png" alt="Netflix Clone">
+          <div class="project-info">
+            <h3>Netflix Clone</h3>
+            <p>Front-end Netflix replica built to hone UI/UX and layout skills.</p>
+            <div class="tech">
+              <span>HTML</span>
+              <span>CSS</span>
+            </div>
+            <div class="project-buttons">
+              <a href="https://github.com/Raunak-23/Netflix_clone" class="btn">Code</a>
+              <a href="https://demo-link.com" class="btn btn-secondary">Demo</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Railway Reservation System -->
+        <article class="project-card">
+          <img src="assets\projects\rail.png" alt="Railway Reservation">
+          <div class="project-info">
+            <h3>Railway Reservation System</h3>
+            <p>CLI-based system to book & cancel train tickets with DB support.</p>
+            <div class="tech">
+              <span>Python</span>
+              <span>MySQL</span>
+            </div>
+            <div class="project-buttons">
+              <a href="https://github.com/your-repo" class="btn">Code</a>
+              <a href="https://demo-link.com" class="btn btn-secondary">Demo</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tic-Tac-Toe in Python -->
+        <article class="project-card">
+          <img src="assets\projects\ttt.png" alt="Tic Tac Toe Python">
+          <div class="project-info">
+            <h3>Tic-Tac-Toe Game (Python)</h3>
+            <p>Unbeatable AI-driven Tic-Tac-Toe game logic ported from Java.</p>
+            <div class="tech">
+              <span>Python</span>
+            </div>
+            <div class="project-buttons">
+              <a href="https://github.com/your-repo" class="btn">Code</a>
+              <a href="https://demo-link.com" class="btn btn-secondary">Demo</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- EVM & VVPAT Voting System -->
+        <article class="project-card">
+          <img src="assets\projects\evm.png" alt="EVM Voting">
+          <div class="project-info">
+            <h3>EVM & VVPAT Voting System</h3>
+            <p>Digitized school elections, reducing vote counting from weeks to hours.</p>
+            <div class="tech">
+              <span>Java</span>
+            </div>
+            <div class="project-buttons">
+              <a href="https://github.com/your-repo" class="btn">Code</a>
+              <a href="https://demo-link.com" class="btn btn-secondary">Demo</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tic-Tac-Toe in Java -->
+        <article class="project-card">
+          <img src="assets\projects\tttjava.png" alt="Tic Tac Toe Java">
+          <div class="project-info">
+            <h3>Tic-Tac-Toe Game (Java)</h3>
+            <p>Single-player logic game with perfect AI win rate.</p>
+            <div class="tech">
+              <span>Java</span>
+            </div>
+            <div class="project-buttons">
+              <a href="https://github.com/your-repo" class="btn">Code</a>
+              <a href="https://demo-link.com" class="btn btn-secondary">Demo</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ======= Certificates Section ======= -->
+    <section id="certificates" class="section dark" data-aos>
+      <h2 class="section-title">Certificates</h2>
+
+      <div id="certificate-carousel" class="splide">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <!-- repeat this <li> for every certificate -->
+            <li class="splide__slide">
+              <div class="cert-slide" data-img="assets/certs/ml-badge.png">
+                <i data-lucide="badge-check"></i>
+                <img src="assets\certs\ml_badge.png" alt="Google Supervised ML" class="cert-thumb">
+                <h3>Google Supervised ML</h3>
+                <span>2025</span>
+              </div>
+            </li>
+
+            <li class="splide__slide">
+              <div class="cert-slide" data-img="assets/certs/vit-merit.png">
+                <i data-lucide="award"></i>
+                <img src="assets\certs\merit.jpg" alt="VIT Merit List" class="cert-thumb">
+                <h3>VIT Merit List</h3>
+                <span>2025</span>
+              </div>
+            </li>
+
+            <li class="splide__slide">
+              <div class="cert-slide" data-img="assets/certs/prog-rep.png">
+                <i data-lucide="users"></i>
+                <img src="assets\certs\pr.jpg" alt="Programme Representation" class="cert-thumb">
+                <h3>Programme Representation</h3>
+                <span>2024-25</span>
+              </div>
+            </li>
+
+            <li class="splide__slide">
+              <div class="cert-slide" data-img="assets/certs/attend-2024.png">
+                <i data-lucide="calendar-check-2"></i>
+                <img src="assets\certs\attendance2.jpg" alt="100% Attendance Year 2" class="cert-thumb">
+                <h3>100% Attendance (Year&nbsp;2)</h3>
+                <span>2024</span>
+              </div>
+            </li>
+
+            <li class="splide__slide">
+              <div class="cert-slide" data-img="assets/certs/attend-2023.png">
+                <i data-lucide="calendar-check"></i>
+                <img src="assets\certs\attnedance1.jpg" alt="100% Attendance Year 1" class="cert-thumb">
+                <h3>100% Attendance (Year&nbsp;1)</h3>
+                <span>2023</span>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal for full-size preview -->
+    <div id="cert-modal" class="cert-modal" aria-hidden="true">
+      <div class="cert-modal-content">
+        <span class="cert-close">&times;</span>
+        <img id="cert-full-img" src="" alt="Certificate preview">
+      </div>
+    </div>
+
+
+  </main>
+  <footer class="footer">
+    <p>© <span id="year"></span> Raunak Pal. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
