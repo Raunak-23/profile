@@ -791,6 +791,18 @@ section {
     min-width: 300px;
 }
 
+@media (max-width: 768px) {
+    .project-card {
+        width: 100%;
+        min-width: auto;
+    }
+
+    .projects-grid {
+        padding: 1rem;
+        gap: 1.5rem;
+    }
+}
+
 @media (min-width: 900px) {
     .project-card {
         width: calc(45% - 1rem);
